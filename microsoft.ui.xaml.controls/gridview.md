@@ -160,6 +160,7 @@ Here, a GridView is bound to a grouped [CollectionViewSource](../microsoft.ui.xa
                 </GroupStyle>
             </GridView.GroupStyle>
         </GridView>
+    </Grid>
 </Page>
 ```
 
