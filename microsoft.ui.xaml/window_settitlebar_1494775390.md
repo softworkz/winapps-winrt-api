@@ -65,7 +65,7 @@ This example shows how to extend the window's content area and replace the syste
                        TextWrapping="NoWrap"
                        Style="{StaticResource CaptionTextBlockStyle}" 
                        VerticalAlignment="Center"
-                       Margin="40,0,0,0"/>
+                       Margin="48,0,0,0"/>
         </Grid>
 
         <NavigationView Grid.Row="1">
