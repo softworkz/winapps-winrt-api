@@ -20,6 +20,12 @@ Occurs when a button control is clicked.
 
 ## -remarks
 
+There is also a [UIElement.Tapped](https://docs.microsoft.com/windows/windows-app-sdk/api/winrt/Microsoft.UI.Xaml.UIElement.Tapped)
+event that indicates that an element has been pressed and released with a pointer device, such as a mouse or touch.
+But use this `Click` event as a general purpose notification that the button has been clicked,
+because it also responds to a button having been clicked with the keyboard or Accessibility tools.
+
+
 ## -examples
 The following example demonstrates handling the Click event and setting the [IsEnabled](../microsoft.ui.xaml.controls/control_isenabled.md) property of a [Button](../microsoft.ui.xaml.controls/button.md), which inherits from [ButtonBase](buttonbase.md).
 
