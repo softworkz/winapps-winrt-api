@@ -20,10 +20,10 @@ Occurs when a button control is clicked.
 
 ## -remarks
 
-There is also a [UIElement.Tapped](https://docs.microsoft.com/windows/windows-app-sdk/api/winrt/Microsoft.UI.Xaml.UIElement.Tapped)
+There is also a [UIElement.Tapped](/windows-app-sdk/api/winrt/microsoft.ui.xaml.uielement.tapped)
 event that indicates that an element has been pressed and released with a pointer device, such as a mouse or touch.
-But use this `Click` event as a general purpose notification that the button has been clicked,
-because it also responds to a button having been clicked with the keyboard or Accessibility tools.
+However, we recommend that you use this `Click` event as a general purpose notification that the button has been clicked,
+because it also responds to a button having been clicked with the keyboard or accessibility tools.
 
 
 ## -examples
